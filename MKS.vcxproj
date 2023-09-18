@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MKS.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="monster.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="monster.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
